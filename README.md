@@ -4,7 +4,11 @@ This is not my original code. The orignal code's url is https://github.com/justa
 
 I just convert format of this code to PyTorch cpp extension format
 
-To install this code, follow below command
-
-
+# Setup
 python setup.py install
+
+
+# Contact
+if you have any questions please feel free to contact me
+
+E-mail : yym064@naver.com
