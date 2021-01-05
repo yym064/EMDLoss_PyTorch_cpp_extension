@@ -1,4 +1,4 @@
-# EMDLoss_cupy
+# EMDLoss_PyTorch_cpp_extension
 
 This is not my original code. The orignal code's url is https://github.com/justanhduc/neuralnet-pytorch
 
