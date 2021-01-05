@@ -1,4 +1,4 @@
-# EMDLoss_PyTorch_cpp_extension
+# EMDLoss_cupy
 
 This is not my original code. The orignal code's url is https://github.com/UncleMEDM/PUGAN-pytorch
 
