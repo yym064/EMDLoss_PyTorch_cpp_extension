@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  emd_loss:
+    image: emd_loss:latest
+    container_name: emd_loss
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=0,1
+      - LC_ALL=C.UTF-8
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    stdin_open: true
+    tty: true
+    cap_add:
+      - SYS_ADMIN
